@@ -30,7 +30,7 @@ class Circle:
     def ListUp(self,cl):
         cl.append(self)
         return True
-
+    
     def PointJudge(self,cl):
         if cl is not []:
             for c in cl:
@@ -39,6 +39,10 @@ class Circle:
             return True
         else:
             return True            
+
+    def distance(self, c2):
+        d = ((self.x-c2.x)**2+(self.y-c2.y)**2)**0.5
+        return d
 
 #迭代中的重要函数，可计算出可取半径的值
 def MinDistance(ptx,pty,cl):
