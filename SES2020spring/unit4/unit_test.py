@@ -18,7 +18,7 @@ class TestCircle(unittest.TestCase):
         self.cl = [self.c1,self.c2,self.c3,self.c4]
 
     def PointJudgeTest(self):
-        self.assertEqual(self.c1.PointJudge,True)
+        self.assertTrue(self.c1.PointJudge)
         
     def RSquareTest(self):
         r1 = RSquare(self.cl)
