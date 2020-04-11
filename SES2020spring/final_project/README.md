@@ -26,7 +26,8 @@ pip install -r requirements.txt
 cd Run/
 python final_project_NBA.py
 ```
-预测结果将会保存到top50_efficiency.txt中
+预测结果将会保存到top50_efficiency.txt中  
+程序运行输出截图  
 ![程序运行输出截图](https://github.com/SHAUNZXY/SESSpring2020/blob/master/SES2020spring/final_project/Run/Output.png)
 
 ### Test
@@ -34,6 +35,7 @@ python final_project_NBA.py
 cd Test/
 python function_test.py
 ```
+程序运行输出截图  
 ![程序运行输出截图](https://github.com/SHAUNZXY/SESSpring2020/blob/master/SES2020spring/final_project/Test/Output.png)
 
 ### python代码
